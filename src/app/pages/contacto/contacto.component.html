@@ -1,0 +1,43 @@
+<div class="contact">
+    <div class="container">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="titlepage">
+                <h2>Contáctame</h2>
+             </div>
+          </div>
+       </div>
+       <div class="row">
+          <div class="col-md-6 offset-md-3">
+             <form id="request" class="main_form" [formGroup]="formularioContacto">
+                <div class="row">
+                   <div class="col-md-12 ">
+                      <input class="contactus" placeholder="Tu nombre" type="type" formControlName="nombre"> 
+                   </div>
+                   <div class="col-md-12">
+                      <input class="contactus" placeholder="Tu número de telefóno" type="type" formControlName="numero">                          
+                   </div>
+                   <div class="col-md-12">
+                      <textarea class="textarea" placeholder="Mensaje" type="type" formControlName="mensaje"></textarea>
+                   </div>
+                   <p *ngIf="banderaError">Revisa los valores del formulario.</p>
+                   <div class="col-md-12">
+                      <button class="send_btn" (click)="enviar()">Enviar</button>
+                   </div>
+                </div>
+             </form>
+          </div>
+       </div>
+    </div>
+    <div class="container-fluid">
+       <div class="row">
+          <div class="col-md-12">
+             <div class="map_main">
+                <div class="map-responsive">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1989.0930235151518!2d-79.94021020541372!3d-4.376217924314874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2ses!4v1692281267140!5m2!1ses-419!2ses" width="600" height="386" frameborder="0" style="border:0; width: 100%;" allowfullscreen=""></iframe>
+                </div>
+             </div>
+          </div>
+       </div>
+    </div>
+ </div>

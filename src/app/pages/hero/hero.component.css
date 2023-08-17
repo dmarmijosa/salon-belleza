@@ -1,0 +1,25 @@
+.bann_img {
+  width: 100%;
+  height: 580px;
+
+  object-fit: cover;
+}
+@media (min-width: 768px) {
+  .bann_img {
+    height: 680px;
+  }
+}
+@media (max-width: 575px) {
+  .logo-nombre .studio {
+    padding-top: 0;
+    font-size: 20px;
+  }
+}
+.logo-nombre {
+  font-family: "Great Vibes", cursive;
+}
+.logo-nombre .studio {
+  color: #000;
+  margin-left: 10px;
+  font-size: 30px;
+}

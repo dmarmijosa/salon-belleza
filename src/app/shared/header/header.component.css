@@ -1,0 +1,17 @@
+h3 {
+  color: #fff;
+  margin: 0;
+  font-family: 'Great Vibes', cursive;
+  font-size: 34px;
+  position: relative;
+  
+}
+span{
+    margin-left: 15px;
+    bottom: -5px;
+    font-family: 'Great Vibes', cursive;
+    position: absolute;
+}
+.navbar-toggler-icon{
+    position: relative;
+}

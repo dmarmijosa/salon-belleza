@@ -1,0 +1,15 @@
+.galeria-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+@media (min-width: 768px) {
+    .galeria-grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+.galeria-item img{
+    object-fit: cover;
+    height: 300px;
+    
+}
