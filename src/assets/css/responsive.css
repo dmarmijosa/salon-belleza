@@ -110,7 +110,7 @@
     }
 }
 
-@media (min-width: 576px) and (max-width: 767px) {
+@media (min-width: 576px) and (max-width: 1300px) {
     .header {
         padding: 29px 0px;
     }
@@ -216,7 +216,7 @@
         height: 417px;
     }
     .relative span {
-        padding-top: 126px;
+        padding-top: 115px;
         display: block;
     }
     .relative h1 {

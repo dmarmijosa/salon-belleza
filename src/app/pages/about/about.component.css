@@ -1,0 +1,15 @@
+p{
+    text-align: justify;
+}
+.nombre-empresa{
+    font-family: 'Great Vibes', cursive;
+    font-size: 28px;
+    text-decoration-style: solid;
+    
+}
+.nombre{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 30px;
+    font-weight: bold
+    ;
+}

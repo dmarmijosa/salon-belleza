@@ -268,12 +268,18 @@ button {
      position: absolute;
      content: "";
      background-color: #2e2d2d;
-     width: 385px;
+     width: 430px;
      height: 86px;
      left: -75px;
      top: -24px;
 }
+@media (min-width: 768px) {
+     .logo::before {
 
+          width: 385px;
+
+     }
+}
 
 /*-- navigation--*/
 
@@ -342,9 +348,16 @@ ul.social_icon li a:hover {
      position: absolute;
      content: "";
      background-color: #2e2d2d;
-     width: 370px;
+     width: 415px;
      height: 764px;
      left: 0;
+}
+@media (min-width: 768px) {
+     .banner_main::before {
+
+          width: 370px;
+
+     }
 }
 
 .banner1 {
@@ -417,12 +430,23 @@ ul.social_icon li a:hover {
 #myCarousel .carousel-control-prev {
      left: inherit;
      right: 100px;
+     margin-top: 40px;
+}
+@media (min-width: 768px) {
+     #myCarousel .carousel-control-prev {
+          margin: 0;
+     }
 }
 
 #myCarousel .carousel-control-next {
      right: 30px;
+     margin-top: 40px;
 }
-
+@media (min-width: 768px) {
+     #myCarousel .carousel-control-next {
+          margin: 0;
+     }
+}
 .banner .carousel-indicators li {
      width: 20px;
      height: 20px;
@@ -544,10 +568,16 @@ ul.social_icon li a:hover {
      bottom: 0%;
      background: url(assets/images/slin2.png);
      background-repeat: no-repeat;
-     max-width: 820px;
+     max-width: 300px;
      height: 147px;
      left: 15%;
      width: 100%;
+}
+@media (min-width: 768px) {
+     .slin2::before {
+          max-width: 820px;
+        
+     }
 }
 
 .about .titlepage {
